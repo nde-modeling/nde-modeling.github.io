@@ -11,7 +11,7 @@ permalink: /packages.html
  * [Greensinversion](https://thermal.cnde.iastate.edu/greensinversion.xml) (thermography model based inversion)
  * [Heatsim2](https://thermal.cnde.iastate.edu/heatsim2.xml) thermography finite-difference simulator
  * [De-la-mo](https://thermal.cnde.iastate.edu/de-la-mo.xhtml) delamination modeler (constructs layer by layer finite-element models of composite laminates with defects) 
- * [LIMATIX](https://thermal.cnde.iastate.edu/limatix.xml) checklist-based experiment logging 
+ * [LIMATIX](https://thermal.cnde.iastate.edu/LIMATIX.xml) checklist-based experiment logging 
  * [Dataguzzler](https://thermal.cnde.iastate.edu/dataguzzler/) Linux data acquisition
  * [MAPOD](https://mapod.weebly.com) metamodeler to facilitate model-assisted POD calculations
  
