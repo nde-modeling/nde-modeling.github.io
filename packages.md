@@ -1,6 +1,7 @@
 ---
 title: Open-source NDE packages
 layout: single
+permalink: /packages.html
 ---
 
 Open-source NDE packages
