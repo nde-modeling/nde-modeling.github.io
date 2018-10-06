@@ -4,9 +4,6 @@ layout: single
 permalink: /packages.html
 ---
 
-Open-source NDE packages
-========================
-
  * [NDEToolbox](http://ndetoolbox.com) from TRI-Austin (NDE data interpretation and analysis)
  * [DREAM.3D](http://dream3d.bluequartz.net) (Microstructure modeling)
  * [XraySim](http://xraysim.sourceforge.net) (Not to be confused with ISU/CNDE or NDE Technologies’ XRSim which is not open source at this time)
