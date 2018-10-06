@@ -1,6 +1,6 @@
 ---
 title: Open-source NDE packages
-layout: post
+layout: single
 ---
 
 Open-source NDE packages
