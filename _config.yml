@@ -22,23 +22,23 @@ words_per_minute         : 200
 comments:
   provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+#  path                   : # blank (default) uses feed.xml
+#search                   : # true, false (default)
+#search_full_content      : # true, false (default)
+#search_provider          : # lunr (default), algolia, google
+#algolia:
+#  application_id         : # YOUR_APPLICATION_ID
+#  index_name             : # YOUR_INDEX_NAME
+#  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+#  powered_by             : # true (default), false
+#google:
+#  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+#  instant_search         : # false (default), true
+## SEO Related
+#google_site_verification :
+#bing_site_verification   :
+#yandex_site_verification :
+#naver_site_verification  :
 
 # Analytics
 analytics:
@@ -47,11 +47,11 @@ analytics:
 
 # Site Author
 author:
-  #name             : ""
+  name             : "Steve Holland"
   #avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   #bio              : ""
   #location         : ""
-  email            :
+  email            : sdh4@iastate.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -128,17 +128,17 @@ kramdown:
   enable_coderay: false
 
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+## Sass/SCSS
+#sass:
+#  sass_dir: _sass
+#  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
