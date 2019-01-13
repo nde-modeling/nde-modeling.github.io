@@ -137,7 +137,9 @@ collections:
   meetings:
     output: true
     permalink: /:collection/:path/
-
+  packages:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -158,6 +160,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -188,6 +191,9 @@ tag_archive:
 meeting_archive:
   type: liquid
   path: /meetings/
+package_archive:
+  type: liquid
+  path: /packages/
 # https://github.com/jekyll/jekyll-archives
 
 #jekyll-archives:
@@ -230,6 +236,15 @@ defaults:
   - scope:
       path: ""
       type: meetings
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+
+  # _packages
+  - scope:
+      path: ""
+      type: packages
     values:
       layout: single
       author_profile: false
