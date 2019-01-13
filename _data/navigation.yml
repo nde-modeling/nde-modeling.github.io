@@ -6,6 +6,8 @@ main:
 main:
   - title: "Packages"
     url: /packages.html
+  - title: "Meetings"
+    url: /meetings/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

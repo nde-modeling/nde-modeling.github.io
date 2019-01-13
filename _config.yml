@@ -47,7 +47,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Steve Holland"
+  name             : 
   #avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   #bio              : ""
   #location         : ""
@@ -133,11 +133,19 @@ kramdown:
 #  sass_dir: _sass
 #  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+collections:
+  meetings:
+    output: true
+    permalink: /:collection/:path/
+
+
+
+
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -145,6 +153,7 @@ timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-archives
   - jekyll-gist
   - jekyll-feed
   - jemoji
@@ -176,17 +185,24 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+meeting_archive:
+  type: liquid
+  path: /meetings/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#    - meetings
+#  layouts:
+#    category: archive-taxonomy
+#    tag: archive-taxonomy
+#    meeting: archive-taxonomy
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
+#    meeting: /meetings/:name/
 
 
 # HTML Compression
@@ -205,9 +221,17 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
 #      share: true
 #      related: true
-
 #      comments:  true
+  # _meetings
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+
