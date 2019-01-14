@@ -4,7 +4,7 @@ author_profile: false
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: nde_modeling_splash.jpg
+  overlay_image: splashimage.jpg
   caption:
 excerpt:
   'The shareable NDE models working group aims to promote the public availability of open-source nondestructive evaluation (NDE) modeling codes and infrastructure'
