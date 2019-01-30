@@ -1,3 +1,6 @@
 *~
 *.bak
 _site
+*.swp
+*.swo
+
