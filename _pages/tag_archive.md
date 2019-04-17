@@ -1,5 +1,5 @@
 ---
-title: "Posts by Tag"
+title: "Packages by Tag"
 permalink: /tags/
 layout: tags
 ---

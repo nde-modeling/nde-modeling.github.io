@@ -5,7 +5,7 @@ main:
     url: /about.html
 main:
   - title: "Packages"
-    url: /packages.html
+    url: /tags/
   - title: "Meetings"
     url: /meetings/
   # - title: "Quick-Start Guide"
